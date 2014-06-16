@@ -1,5 +1,5 @@
 #include<cmath>
-Einclude<iostream>
+#include<iostream>
 
 // Returns the minimal 2^m (m natural number) that is greater than n.
 
