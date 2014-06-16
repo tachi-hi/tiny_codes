@@ -2,11 +2,11 @@
 #include<iostream>
 
 // Returns the minimal 2^m (m natural number) that is greater than n.
-
-int ceiling_prod2(int n) { 
+constexpr int ceiling_prod2(int n) { 
     return (1 << static_cast<int>(ceil( log(n)/log(2)))); 
 }
 
+// template version
 template<int N> constexpr int ceiling_prod2(void) { 
     return (1 << static_cast<int>(ceil( log(N)/log(2)))); 
 }
